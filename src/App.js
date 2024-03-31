@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
+          <h1>Dictionary</h1>
+          <h4>What word do you want to look up?</h4>
           <main>
             <Dictionary />
           </main>
