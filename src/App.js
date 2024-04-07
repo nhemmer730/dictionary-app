@@ -7,11 +7,13 @@ function App() {
       <div className="container">
         <header className="App-header">
           <h1>Dictionary</h1>
-          <h4>What word do you want to look up?</h4>
-          <main>
-            <Dictionary />
-          </main>
         </header>
+        <main>
+          <Dictionary defaultKeyword="welcome" />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Nicole Hemmer</small>
+        </footer>
       </div>
     </div>
   );
