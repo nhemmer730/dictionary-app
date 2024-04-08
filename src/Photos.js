@@ -11,13 +11,10 @@ export default function Photos(props) {
                 className="col-4"
                 key={index}
               >
-                <a
-                  href={photos.src.original}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={photos.src.original}>
                   <img
                     src={photos.src.original}
+                    alt={photos.alt}
                     className="img-fluid"
                   />
                 </a>
